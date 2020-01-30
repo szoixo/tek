@@ -1,10 +1,43 @@
 <html>
-  <h1>Shalom</h1>
+    <h1>Coded by Szo</h1>
   <body>This will be a landing page for all of my dev-elopments!</body>
+  <head>
+    <style>
+    {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns */
+    .column {
+    float: left;
+    }
 
-<h2>Coded by Szo</h2>
-<main>
-  <p>Click here to view more <a href="#">cat photos</a>.</p>
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 30%;
+    }
+
+    .middle {
+    width: 30%;
+    }
+    
+    .right {
+    width: 40%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+ </head>
+ <body>
+    <div class="row">
+        <div class="column left" style="background-color:white;">
+            <h2>Column 1</h2>
+            <p>
+          <p>Click here to view more <a href="#">cat photos</a>
+          
 
   <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
 
@@ -27,13 +60,30 @@
     <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
     <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
     <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
-    <input type="text" placeholder="cat photo URL" required>
+    <input type="text" placeholder="Feedback" required>
     <button type="submit">Submit</button>
-  </form>
-  
-  <div class="six columns alpha" style="text-align: center;">
+  </form></p>
+      </p>
+        </div>
+        <div class="column middle" style="background-color:mint;">
+            <h2>Column 2</h2>
+            <p>  
+          <div class="six columns alpha" style="text-align: center;">
     <img class="access-token-image" alt="instagram icon" src="https://cdn.shopify.com/s/files/1/1341/8845/files/Instagram-v051916_medium.png?6359483746063105474" style="float: none; display: block; margin-left: auto; margin-right: auto;"> <br> <br> <a id="instagram_button" href="https://instagram.com/oauth/authorize/?client_id=d90570a773384033819c7b43cec8132c&amp;redirect_uri=https://szoixo.github.io/tek/auth/instagram-success&amp;response_type=token&amp;hl=en" class="action_button button_arrow">Generate Access Token</a>
   </div>
+          </p>
+        </div>
+        <div class="column right" style="background-color:black;">
+            <h2>Column 3</h2>
+            <p>Inser Data here.....</p>
+        </div>
+    </div>
+ </body>
+
+
+<h2>Column 1</h2>
+<main>
+  
 
     </main>
 </html>
